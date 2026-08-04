@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5d7e590f6056b428ce26e22df67ea1, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: Game.Runtime::Game.Config.PlayerConfig
+  startRadius: 1.2
+  criticalRadius: 0.35
+  hopDuration: 0.35
+  hopHeight: 0.8
+  hopPauseDuration: 0.05
+  clearanceFactor: 1.05

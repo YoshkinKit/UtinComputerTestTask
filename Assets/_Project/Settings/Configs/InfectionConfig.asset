@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67391126dce45dd4485f14efcb39336d, type: 3}
+  m_Name: InfectionConfig
+  m_EditorClassIdentifier: Game.Runtime::Game.Config.InfectionConfig
+  infectionRadiusPerShotRadius: 2.55
+  spreadEfficiency: 0.85
+  energyCostPerMeter: 2.5
+  minEnergy: 0.01
+  maxNeighborGap: 2.5
+  explodeDelayPerDepth: 0.05
+  explodeDuration: 0.25
